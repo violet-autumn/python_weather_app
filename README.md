@@ -13,7 +13,7 @@ Following is a snapshot:
 
 #### Resources Used 
 1. Tutorial used for reference: https://www.youtube.com/watch?v=jQjjqEjZK58
-2. API used to query city weather: https://openweathermap.org/
+2. API used to query city weather: https://openweathermap.org/current#name
 3. Web service used to host: https://dashboard.render.com/
 
  
