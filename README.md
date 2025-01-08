@@ -26,5 +26,6 @@ Following is a snapshot:
 * requirements.txt - conatins the requirements for deplying the application
 * weather.py - contains the get_current_weather() function defination which performs the API call to Open Weather Map and returns the resultant JSON object
 * server.py - contains the flask app routing and serving logic, along with a few edge cases. It performs the end-to-end logic of the app, from fetching the city via the form input to rendering the corresponding html file based on the query result.
+* .env - contains API_KEY=<api_key_from_open_weather_map> that the get_current_weather() function in weather.py uses to query Open Weather Map.
 
 *** 
