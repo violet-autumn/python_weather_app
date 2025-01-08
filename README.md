@@ -3,8 +3,11 @@
 
 App is live at this link: https://python-weather-i1z0.onrender.com
 
-This is a Python based app which leverages Flask for web serving. It lets the user specify a city queries Open Weather Map to fetch the current temperature, status, and feels like temerature. Following is a snapshot:
-<img width="806" alt="image" src="https://github.com/user-attachments/assets/0f3d2e4a-5443-4f2f-9648-62082d1af25d" />
+This is a Python based app which leverages Flask for web serving. It lets the user specify a city and then queries the Open Weather Map to fetch the current temperature, status, and feels like temerature for the specified city. 
+
+Following is a snapshot:
+
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/0f3d2e4a-5443-4f2f-9648-62082d1af25d" /> 
 
 ***
 
