@@ -18,10 +18,10 @@ This is a Python based app which leverages Flask for web serving. It lets the us
 
 #### Decription of the file tree
 
-> templates - contains index.html (first webpage), weather.html (query successful result page), and city_not_found.html (query failed page). All of them contain the form to enter a new city name to query its weather.
-> static/styles - contains styles.css
-> requirements.txt - conatins the requirements for deplying the application
-> weather.py - contains the get_current_weather() function defination which performs the API call to Open Weather Map and returns the resultant JSON object
-> server.py - contains the flask app routing and serving logic, along with a few edge cases. It performs the end-to-end logic of the app, from fetching the city via the form input to rendering the corresponding html file based on the query result.
+* templates - contains index.html (first webpage), weather.html (query successful result page), and city_not_found.html (query failed page). All of them contain the form to enter a new city name to query its weather.
+* static/styles - contains styles.css
+* requirements.txt - conatins the requirements for deplying the application
+* weather.py - contains the get_current_weather() function defination which performs the API call to Open Weather Map and returns the resultant JSON object
+* server.py - contains the flask app routing and serving logic, along with a few edge cases. It performs the end-to-end logic of the app, from fetching the city via the form input to rendering the corresponding html file based on the query result.
 
 *** 
